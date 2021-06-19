@@ -1,0 +1,35 @@
+{
+  "name": "typescript-dnd-webpack",
+  "version": "1.0.0",
+  "description": "A simple drag and drop project manager build with TypeScript with webpack setup",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakb/typescript-dnd-webpack.git"
+  },
+  "keywords": [
+    "typescript",
+    "webpack",
+    "dev",
+    "prod"
+  ],
+  "author": "Deepak Biswal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepakb/typescript-dnd-webpack/issues"
+  },
+  "homepage": "https://github.com/deepakb/typescript-dnd-webpack#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.4",
+    "webpack": "^5.39.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
